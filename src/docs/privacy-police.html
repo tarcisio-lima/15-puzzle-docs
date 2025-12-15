@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Política de Privacidade | 15-Puzzle</title>
+  <meta name="description" content="Política de Privacidade do aplicativo 15-Puzzle." />
+  <style>
+    :root{
+        --dark: #3d3d5b;          /* Tom escuro */
+        --primary-light: #ffe3b2; /* Tom base primário claro */
+        --primary-medium: #e9bb8f;/* Tom base primário médio */
+        --primary-dark: #cf8758;  /* Tom base primário escuro */
+        --sec-blue: #6792b0;      /* secundária azul */
+        --sec-green: #70ab8e;     /* secundária verde */
+        --sec-yellow: #ffa900;    /* secundária amarelo */
+        --sec-pink: #ff5e90;      /* secundária vermelho/rosa */
+        --neu-1: #c1ad93;         /* terciário neutro 1 */
+        --neu-2: #bba78c;         /* terciário neutro 2 */
+        --page-white: #ffffff;
+        --muted-bg: rgba(193,173,147,0.06);
+    }
+    @font-face {
+        font-family: 'PixelOperator';
+        src: url('../assets/webfonts/pixel_operator.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'PixelOperator';
+      background-color: var(--primary-light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+    header {
+      padding: 48px 20px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+      letter-spacing: 0.2px;
+    }
+    header p {
+      margin: 0;
+      color: var(--dark);
+      font-size: 0.95rem;
+    }
+    main {
+      max-width: 860px;
+      margin: 24px auto 64px;
+      padding: 0 20px;
+    }
+    .card {
+      background: var(--primary-light);
+      border: 1px solid var(--primary-dark);
+      backdrop-filter: blur(6px);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+    .card section {
+      padding: 24px;
+      border-top: 1px solid var(--muted-bg);
+    }
+    .card section:first-child { border-top: 0; }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.25rem;
+      color: var(--dark);
+    }
+    h3 {
+      margin: 16px 0 8px;
+      font-size: 1.05rem;
+    }
+    p { margin: 10px 0; }
+    ul { margin: 10px 0 0 18px; }
+    li { margin: 6px 0; }
+    a { color: var(--primary-light); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      color: var(--dark);
+      font-size: 0.9rem;
+      padding: 24px 20px 48px;
+    }
+    .meta {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+    .badge {
+      font-size: 0.85rem;
+      color: var(--dark);
+      background: var(--primary-medium);
+      border: 1px solid var(--primary-dark);
+      border-radius: 999px;
+      padding: 6px 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Política de Privacidade | 15-Puzzle</h1>
+    <div class="meta">
+      <span class="badge">Versão: 1.0</span>
+      <span class="badge">Última atualização: 12/12/2025</span>
+      <span class="badge">Vigência: imediata</span>
+    </div>
+    <p>Esta política descreve como coletamos e tratamos informações técnicas para estabilidade e suporte do aplicativo.</p>
+  </header>
+
+  <main>
+    <div class="card" role="article" aria-label="Política de Privacidade">
+      <section id="introducao">
+        <h2>1. Introdução</h2>
+        <p>Esta Política de Privacidade descreve como 15-Puzzle (“Aplicativo”, “nós”, “nosso”) coleta, utiliza, armazena e compartilha informações quando você utiliza nosso jogo disponibilizado na Google Play. Ao instalar e utilizar o Aplicativo, você concorda com os termos aqui descritos.</p>
+      </section>
+
+      <section id="informacoes-coletadas">
+        <h2>2. Informações coletadas</h2>
+        <p>O Aplicativo poderá coletar automaticamente determinadas informações técnicas relacionadas ao funcionamento e desempenho, incluindo:</p>
+        <ul>
+          <li><strong>Dados de erros e exceções</strong> geradas pelo código;</li>
+          <li><strong>Versão instalada</strong> do aplicativo;</li>
+          <li><strong>Data e hora</strong> do evento;</li>
+          <li><strong>Modelo e especificações do dispositivo</strong>.</li>
+        </ul>
+        <p><strong>Não coletamos informações pessoais identificáveis</strong> como nome, endereço de e-mail, número de telefone ou dados de localização precisa.</p>
+      </section>
+
+      <section id="finalidade">
+        <h2>3. Finalidade da coleta</h2>
+        <ul>
+          <li><strong>Diagnóstico e correção</strong> de falhas técnicas;</li>
+          <li><strong>Melhoria da estabilidade e desempenho</strong> do Aplicativo;</li>
+          <li><strong>Garantia de compatibilidade</strong> com diferentes dispositivos e versões.</li>
+        </ul>
+      </section>
+
+      <section id="compartilhamento">
+        <h2>4. Compartilhamento de dados</h2>
+        <p>Os dados técnicos coletados poderão ser transmitidos a serviços de monitoramento e análise de erros, tais como <strong>Sentry</strong> ou <strong>GitHub</strong>, com a finalidade exclusiva de manutenção e suporte técnico. Não compartilhamos dados com terceiros para fins de marketing, publicidade ou perfilamento de usuários.</p>
+      </section>
+
+      <section id="base-legal">
+        <h2>5. Base legal</h2>
+        <p>O tratamento das informações técnicas é realizado com fundamento no <strong>legítimo interesse</strong> do desenvolvedor em manter o funcionamento adequado do Aplicativo, conforme previsto na legislação aplicável de proteção de dados.</p>
+      </section>
+
+      <section id="seguranca">
+        <h2>6. Segurança</h2>
+        <p>Adotamos medidas técnicas e organizacionais adequadas para proteger as informações coletadas contra acesso não autorizado, alteração, divulgação ou destruição.</p>
+      </section>
+
+      <section id="direitos-usuario">
+        <h2>7. Direitos do usuário</h2>
+        <ul>
+          <li><strong>Solicitar esclarecimentos</strong> sobre o tratamento de dados;</li>
+          <li><strong>Requerer a exclusão</strong> de informações técnicas associadas ao seu uso, quando aplicável;</li>
+          <li><strong>Interromper a coleta</strong> de dados mediante a desinstalação do Aplicativo.</li>
+        </ul>
+      </section>
+
+      <section id="retencao">
+        <h2>8. Retenção</h2>
+        <p>Os dados técnicos coletados serão mantidos apenas pelo período necessário para análise e correção de falhas, sendo posteriormente descartados ou anonimizados.</p>
+      </section>
+
+      <section id="alteracoes">
+        <h2>9. Alterações desta política</h2>
+        <p>Reservamo-nos o direito de modificar esta Política de Privacidade a qualquer momento. Alterações relevantes serão comunicadas por meio da atualização desta página na Google Play.</p>
+      </section>
+
+      <section id="contato">
+        <h2>10. Contato</h2>
+        <p>Em caso de dúvidas ou solicitações relacionadas a esta Política de Privacidade, entre em contato pelo e-mail: <a href="mailto:suporte@seudominio.com">suporte@seudominio.com</a>.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 whoIAm. Todos os direitos reservados.</p>
+    <p>Esta política está disponível para consulta pública e pode ser atualizada periodicamente.</p>
+  </footer>
+</body>
+</html>
+```
