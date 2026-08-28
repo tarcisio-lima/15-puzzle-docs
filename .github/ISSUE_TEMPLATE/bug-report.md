@@ -4,7 +4,6 @@ about: Reportar um problema encontrado no jogo.
 title: "[Relatório de Bug]"
 labels: ''
 assignees: ''
-
 ---
 
 ## Descrição do bug
