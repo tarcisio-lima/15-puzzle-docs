@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Reportar um BUG
+    url: https://github.com/tarcisio-lima/15-puzzle-game/issues/new?template=bug-report.md
+    about: Utilize este link para relatar um problema ocorrido no jogo
