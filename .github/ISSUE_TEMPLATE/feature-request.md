@@ -20,3 +20,10 @@ Por que essa feature é importante para o jogador ou para a experiência do jogo
 ## Mockups
 
 Incluir imagens conceituais do função proposta.
+
+---
+
+## Critérios de Aceite
+
+- [ ] Caso de teste #1: Deve mostrar os botões da tela do menu principal;
+- [ ] ...

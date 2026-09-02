@@ -27,3 +27,10 @@ Descreva o que você esperava que acontecesse.
 - **Plataforma:** (Android, Windows, etc.)
 - **Dificuldade:** (Fácil, Médio, Difícil)
 - **Dispositivo:** (modelo, versão do SO)
+
+---
+
+## Critérios de Aceite
+
+- [ ] Caso de teste #1: Deve mostrar os botões da tela do menu principal;
+- [ ] ...

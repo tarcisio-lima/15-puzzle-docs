@@ -14,3 +14,10 @@ Como o código deve ser reestruturado? (ex: aplicar padrão Command para o movim
 
 ## Benefício Esperado
 *(Ex: facilidade para testar, legibilidade, performance).*
+
+---
+
+## Critérios de Aceite
+
+- [ ] Caso de teste #1: Deve mostrar os botões da tela do menu principal;
+- [ ] ...

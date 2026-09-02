@@ -11,3 +11,10 @@ Descrição da tarefa que não altera a lógica principal do jogo (ex: atualizar
 
 ## Objetivo
 O que essa manutenção melhora no processo de desenvolvimento?
+
+---
+
+## Critérios de Aceite
+
+- [ ] Caso de teste #1: Deve mostrar os botões da tela do menu principal;
+- [ ] ...
